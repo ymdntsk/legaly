@@ -1,0 +1,22 @@
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+}
+
+body{
+    background-color: #1d1d23;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+footer{
+    background: #bf3222;
+background: linear-gradient(90deg, rgba(191, 50, 34, 1) 0%, rgba(245, 80, 121, 1) 100%);
+}
