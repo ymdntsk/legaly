@@ -3,20 +3,134 @@ margin: 0;
 box-sizing: border-box;
 }
 
-img{
-    width: 20%;
-    height: 20%;
-}
+
 
 body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    /* ============================ */
     background-color: #1d1d23;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #ffffff;
+    color:aliceblue;
+    height: 100vh;
+}
+
+main {
+    width: 80%;
+    height: 90%;    
+    padding: 80px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+
+.logo{
+    display: flex;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+ margin-top: 20px;
+ margin-bottom: 30px;
+ 
+}
+
+.logo i{
+    font-size: 32px;
+    color: #bf3222;
+   
 }
 
 footer{
-    background: #bf3222;
+ background: #bf3222;
 background: linear-gradient(90deg, rgba(191, 50, 34, 1) 0%, rgba(245, 80, 121, 1) 100%);
+width: 100vw;
+}
+
+
+
+    /* ============================ */
+    /* ===========Card============ */
+  /* ============================ */
+
+  a
+  {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+  ul{
+    list-style: none;
+  padding: 0;
+  }
+
+  .menu i {
+
+    font-size: 34px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  .sidebarfooter{
+ height: 30vh;
+  }
+
+  .links{
+
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;
+    font-size: 20px;
+  
+  }
+
+    .sidebarfooter button{
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 8px;
+        color: aliceblue;
+        border-radius: 20px;
+        margin: auto 12px ;
+    }
+
+    .juntar-os-negocio{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 30%;
+    }
+
+section
+{
+display: flex;
+gap: 12px;
+align-items: center;
+height: 50%;
+width: 100%;
+}
+
+.card img{
+ width: 80%;
+ 
+}
+
+.card{
+     width: 20%;
+     height: 85%;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    background-color: #3c3c44;
+    border-radius: 12px;
 }
